@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>2017 RUSH Showcase.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5826E1921E4F52690068AAB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5826E1AB1E4F526A0068AAB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5826E1B61E4F526A0068AAB7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

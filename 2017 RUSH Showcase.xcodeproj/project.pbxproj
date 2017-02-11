@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5826E1981E4F52690068AAB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5826E1971E4F52690068AAB7 /* main.m */; };
+		5826E19B1E4F52690068AAB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5826E19A1E4F52690068AAB7 /* AppDelegate.m */; };
+		5826E19E1E4F52690068AAB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5826E19D1E4F52690068AAB7 /* ViewController.m */; };
+		5826E1A11E4F52690068AAB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5826E19F1E4F52690068AAB7 /* Main.storyboard */; };
+		5826E1A31E4F526A0068AAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5826E1A21E4F526A0068AAB7 /* Assets.xcassets */; };
+		5826E1A61E4F526A0068AAB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5826E1A41E4F526A0068AAB7 /* LaunchScreen.storyboard */; };
+		5826E1B11E4F526A0068AAB7 /* _017_RUSH_ShowcaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5826E1B01E4F526A0068AAB7 /* _017_RUSH_ShowcaseTests.m */; };
+		5826E1BC1E4F526A0068AAB7 /* _017_RUSH_ShowcaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5826E1BB1E4F526A0068AAB7 /* _017_RUSH_ShowcaseUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5826E1AD1E4F526A0068AAB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5826E18B1E4F52690068AAB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5826E1921E4F52690068AAB7;
+			remoteInfo = "2017 RUSH Showcase";
+		};
+		5826E1B81E4F526A0068AAB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5826E18B1E4F52690068AAB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5826E1921E4F52690068AAB7;
+			remoteInfo = "2017 RUSH Showcase";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5826E1931E4F52690068AAB7 /* 2017 RUSH Showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2017 RUSH Showcase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5826E1971E4F52690068AAB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5826E1991E4F52690068AAB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5826E19A1E4F52690068AAB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5826E19C1E4F52690068AAB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5826E19D1E4F52690068AAB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5826E1A01E4F52690068AAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5826E1A21E4F526A0068AAB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5826E1A51E4F526A0068AAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5826E1A71E4F526A0068AAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5826E1AC1E4F526A0068AAB7 /* 2017 RUSH ShowcaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2017 RUSH ShowcaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5826E1B01E4F526A0068AAB7 /* _017_RUSH_ShowcaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _017_RUSH_ShowcaseTests.m; sourceTree = "<group>"; };
+		5826E1B21E4F526A0068AAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5826E1B71E4F526A0068AAB7 /* 2017 RUSH ShowcaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2017 RUSH ShowcaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5826E1BB1E4F526A0068AAB7 /* _017_RUSH_ShowcaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _017_RUSH_ShowcaseUITests.m; sourceTree = "<group>"; };
+		5826E1BD1E4F526A0068AAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5826E1901E4F52690068AAB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5826E1A91E4F526A0068AAB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5826E1B41E4F526A0068AAB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5826E18A1E4F52690068AAB7 = {
+			isa = PBXGroup;
+			children = (
+				5826E1951E4F52690068AAB7 /* 2017 RUSH Showcase */,
+				5826E1AF1E4F526A0068AAB7 /* 2017 RUSH ShowcaseTests */,
+				5826E1BA1E4F526A0068AAB7 /* 2017 RUSH ShowcaseUITests */,
+				5826E1941E4F52690068AAB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5826E1941E4F52690068AAB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5826E1931E4F52690068AAB7 /* 2017 RUSH Showcase.app */,
+				5826E1AC1E4F526A0068AAB7 /* 2017 RUSH ShowcaseTests.xctest */,
+				5826E1B71E4F526A0068AAB7 /* 2017 RUSH ShowcaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5826E1951E4F52690068AAB7 /* 2017 RUSH Showcase */ = {
+			isa = PBXGroup;
+			children = (
+				5826E1991E4F52690068AAB7 /* AppDelegate.h */,
+				5826E19A1E4F52690068AAB7 /* AppDelegate.m */,
+				5826E19C1E4F52690068AAB7 /* ViewController.h */,
+				5826E19D1E4F52690068AAB7 /* ViewController.m */,
+				5826E19F1E4F52690068AAB7 /* Main.storyboard */,
+				5826E1A21E4F526A0068AAB7 /* Assets.xcassets */,
+				5826E1A41E4F526A0068AAB7 /* LaunchScreen.storyboard */,
+				5826E1A71E4F526A0068AAB7 /* Info.plist */,
+				5826E1961E4F52690068AAB7 /* Supporting Files */,
+			);
+			path = "2017 RUSH Showcase";
+			sourceTree = "<group>";
+		};
+		5826E1961E4F52690068AAB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5826E1971E4F52690068AAB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5826E1AF1E4F526A0068AAB7 /* 2017 RUSH ShowcaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				5826E1B01E4F526A0068AAB7 /* _017_RUSH_ShowcaseTests.m */,
+				5826E1B21E4F526A0068AAB7 /* Info.plist */,
+			);
+			path = "2017 RUSH ShowcaseTests";
+			sourceTree = "<group>";
+		};
+		5826E1BA1E4F526A0068AAB7 /* 2017 RUSH ShowcaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5826E1BB1E4F526A0068AAB7 /* _017_RUSH_ShowcaseUITests.m */,
+				5826E1BD1E4F526A0068AAB7 /* Info.plist */,
+			);
+			path = "2017 RUSH ShowcaseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5826E1921E4F52690068AAB7 /* 2017 RUSH Showcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5826E1C01E4F526A0068AAB7 /* Build configuration list for PBXNativeTarget "2017 RUSH Showcase" */;
+			buildPhases = (
+				5826E18F1E4F52690068AAB7 /* Sources */,
+				5826E1901E4F52690068AAB7 /* Frameworks */,
+				5826E1911E4F52690068AAB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2017 RUSH Showcase";
+			productName = "2017 RUSH Showcase";
+			productReference = 5826E1931E4F52690068AAB7 /* 2017 RUSH Showcase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5826E1AB1E4F526A0068AAB7 /* 2017 RUSH ShowcaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5826E1C31E4F526A0068AAB7 /* Build configuration list for PBXNativeTarget "2017 RUSH ShowcaseTests" */;
+			buildPhases = (
+				5826E1A81E4F526A0068AAB7 /* Sources */,
+				5826E1A91E4F526A0068AAB7 /* Frameworks */,
+				5826E1AA1E4F526A0068AAB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5826E1AE1E4F526A0068AAB7 /* PBXTargetDependency */,
+			);
+			name = "2017 RUSH ShowcaseTests";
+			productName = "2017 RUSH ShowcaseTests";
+			productReference = 5826E1AC1E4F526A0068AAB7 /* 2017 RUSH ShowcaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5826E1B61E4F526A0068AAB7 /* 2017 RUSH ShowcaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5826E1C61E4F526A0068AAB7 /* Build configuration list for PBXNativeTarget "2017 RUSH ShowcaseUITests" */;
+			buildPhases = (
+				5826E1B31E4F526A0068AAB7 /* Sources */,
+				5826E1B41E4F526A0068AAB7 /* Frameworks */,
+				5826E1B51E4F526A0068AAB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5826E1B91E4F526A0068AAB7 /* PBXTargetDependency */,
+			);
+			name = "2017 RUSH ShowcaseUITests";
+			productName = "2017 RUSH ShowcaseUITests";
+			productReference = 5826E1B71E4F526A0068AAB7 /* 2017 RUSH ShowcaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5826E18B1E4F52690068AAB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Team RUSH 27";
+				TargetAttributes = {
+					5826E1921E4F52690068AAB7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GG6L423N75;
+						ProvisioningStyle = Automatic;
+					};
+					5826E1AB1E4F526A0068AAB7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GG6L423N75;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5826E1921E4F52690068AAB7;
+					};
+					5826E1B61E4F526A0068AAB7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GG6L423N75;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5826E1921E4F52690068AAB7;
+					};
+				};
+			};
+			buildConfigurationList = 5826E18E1E4F52690068AAB7 /* Build configuration list for PBXProject "2017 RUSH Showcase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5826E18A1E4F52690068AAB7;
+			productRefGroup = 5826E1941E4F52690068AAB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5826E1921E4F52690068AAB7 /* 2017 RUSH Showcase */,
+				5826E1AB1E4F526A0068AAB7 /* 2017 RUSH ShowcaseTests */,
+				5826E1B61E4F526A0068AAB7 /* 2017 RUSH ShowcaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5826E1911E4F52690068AAB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5826E1A61E4F526A0068AAB7 /* LaunchScreen.storyboard in Resources */,
+				5826E1A31E4F526A0068AAB7 /* Assets.xcassets in Resources */,
+				5826E1A11E4F52690068AAB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5826E1AA1E4F526A0068AAB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5826E1B51E4F526A0068AAB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5826E18F1E4F52690068AAB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5826E19E1E4F52690068AAB7 /* ViewController.m in Sources */,
+				5826E19B1E4F52690068AAB7 /* AppDelegate.m in Sources */,
+				5826E1981E4F52690068AAB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5826E1A81E4F526A0068AAB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5826E1B11E4F526A0068AAB7 /* _017_RUSH_ShowcaseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5826E1B31E4F526A0068AAB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5826E1BC1E4F526A0068AAB7 /* _017_RUSH_ShowcaseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5826E1AE1E4F526A0068AAB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5826E1921E4F52690068AAB7 /* 2017 RUSH Showcase */;
+			targetProxy = 5826E1AD1E4F526A0068AAB7 /* PBXContainerItemProxy */;
+		};
+		5826E1B91E4F526A0068AAB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5826E1921E4F52690068AAB7 /* 2017 RUSH Showcase */;
+			targetProxy = 5826E1B81E4F526A0068AAB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5826E19F1E4F52690068AAB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5826E1A01E4F52690068AAB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5826E1A41E4F526A0068AAB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5826E1A51E4F526A0068AAB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5826E1BE1E4F526A0068AAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5826E1BF1E4F526A0068AAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5826E1C11E4F526A0068AAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GG6L423N75;
+				INFOPLIST_FILE = "2017 RUSH Showcase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RUSH.-017-RUSH-Showcase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5826E1C21E4F526A0068AAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GG6L423N75;
+				INFOPLIST_FILE = "2017 RUSH Showcase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RUSH.-017-RUSH-Showcase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5826E1C41E4F526A0068AAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GG6L423N75;
+				INFOPLIST_FILE = "2017 RUSH ShowcaseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RUSH.-017-RUSH-ShowcaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2017 RUSH Showcase.app/2017 RUSH Showcase";
+			};
+			name = Debug;
+		};
+		5826E1C51E4F526A0068AAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GG6L423N75;
+				INFOPLIST_FILE = "2017 RUSH ShowcaseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RUSH.-017-RUSH-ShowcaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2017 RUSH Showcase.app/2017 RUSH Showcase";
+			};
+			name = Release;
+		};
+		5826E1C71E4F526A0068AAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GG6L423N75;
+				INFOPLIST_FILE = "2017 RUSH ShowcaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RUSH.-017-RUSH-ShowcaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "2017 RUSH Showcase";
+			};
+			name = Debug;
+		};
+		5826E1C81E4F526A0068AAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GG6L423N75;
+				INFOPLIST_FILE = "2017 RUSH ShowcaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RUSH.-017-RUSH-ShowcaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "2017 RUSH Showcase";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5826E18E1E4F52690068AAB7 /* Build configuration list for PBXProject "2017 RUSH Showcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5826E1BE1E4F526A0068AAB7 /* Debug */,
+				5826E1BF1E4F526A0068AAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5826E1C01E4F526A0068AAB7 /* Build configuration list for PBXNativeTarget "2017 RUSH Showcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5826E1C11E4F526A0068AAB7 /* Debug */,
+				5826E1C21E4F526A0068AAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5826E1C31E4F526A0068AAB7 /* Build configuration list for PBXNativeTarget "2017 RUSH ShowcaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5826E1C41E4F526A0068AAB7 /* Debug */,
+				5826E1C51E4F526A0068AAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5826E1C61E4F526A0068AAB7 /* Build configuration list for PBXNativeTarget "2017 RUSH ShowcaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5826E1C71E4F526A0068AAB7 /* Debug */,
+				5826E1C81E4F526A0068AAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5826E18B1E4F52690068AAB7 /* Project object */;
+}
